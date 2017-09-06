@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+  height: 100%;
+  font-family: 'Cardo', Georgia, Times, serif;
+}
+h1 {
+	font-family: 'Allan', Helvetica, Arial, sans-serif;
+	font-size: 70px;
+  line-height: 75px;
+  text-decoration: whitesmoke underline;
+}
+body {
+  background-color: whitesmoke;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.input-name {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  border: none;
+  background-color: white;
+  text-align: left;
+  padding: 0;
+  margin-top: 10px;
+  height: 20px;
+  font-family: 'Cardo', Georgia, Times, serif;
+  line-height: 10px;
+}
+.input-name:blur {
+  color: black;
+}
+.input-name:hover {
+  cursor: text;
+}
+.input-name:focus {
+  color: black;
+  outline: none;
+}
+.input-name::placeholder {
+  color: black;
+}
+.show-less {
+  display: none;
+  width: 100px;
+  text-align: left;
+}
+.show-more {
+  display: block;
+  width: 100px;
+  text-align: left;
+}
+.info-box {
+  display: flex;
+  flex-direction: row;
+  width: 40em;
+  margin-bottom: 10px;
+}
+li {
+  vertical-align: middle;
+  list-style-type: none;
+  margin: auto;
+}
+.friend {
+  display: flex;
+  flex-direction: row;
+}
+.more-info {
+  font-family: 'Cardo', Georgia, Times, serif;
+  display:block;
+  padding: 0;
+  margin: 10px;
+  height: 20px;
+  width: 80px;
+}
+.more-info:hover {
+  cursor: pointer;
+}
+.list {
+  display: block;
+  min-height: 300px;
+  width: 60vw;
+  margin: auto;
+}
+.friends-list-container {
+  background-color: white;
+  width: 70vw;
+  min-width: 400px;
+  margin: auto;
+  border: outset 1px darkblue;
+  box-shadow:  -2px 2px grey;
+  border-radius: 4px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+.lab {
+  text-align: left;
+  font-size: 12px;
+  display: block;
+  width: 40px;
+  padding-left: 2em;
+  padding-right: 3em;
+  position: relative;
+  top: 4px;
+  height: 20px;
+  margin-top: 10px;
+  line-height: 10px;
+  font-style: italic;
+}
+.delete {
+  position: relative;
+  background-image: url("https://sophosnews.files.wordpress.com/2013/05/delete-button-250.jpg");
+  background-size: 240%;
+  background-position: -18px -19px;
+  left: 5vw;
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+}
+.delete:hover {
+  outline: red solid thick;
+  cursor: pointer;
+}
+.labels {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 25vw;
+}
+.add-form {
+  border-bottom: outset 2px darkblue;
+  background-color: rgba(24, 58, 129, 0.10);
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  padding: 10px;
+  box-shadow: 10px 10px 5px #0B0A95;
+}
+.add-labels {
+  font-family: 'Cardo', Georgia, Times, serif;  
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.add-input {
+  font-family: 'Cardo', Georgia, Times, serif;  
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 10px;
+}
+.add-lab {
+  margin: 0 20px;
+}
+.add-in-age {
+  font-family: 'Cardo', Georgia, Times, serif;  
+  font-size: 10px;  
+  width: 40px;
+  padding-left: 15px;
+  margin: 0 10px;
+  text-align: center;
+}
+.add-in-age:hover {
+  cursor: text;
+}
+.add-in-age:focus {
+  font-family: 'Cardo', Georgia, Times, serif;  
+  font-size: 10px;  
+  color: black;
+  outline: none;
+}
+.add-in {
+  text-align: center;
+  font-family: 'Cardo', Georgia, Times, serif;  
+  font-size: 10px;  
+}
+.add-in:hover {
+  cursor: text;
+}
+.add-in:focus {
+  font-family: 'Cardo', Georgia, Times, serif;  
+  font-size: 10px;  
+  color: black;
+  outline: none;
+}
+.submit {
+  width: 60px;
+  margin: auto;
+  font-family: 'Cardo', Georgia, Times, serif;  
+  font-size: 10px;  
+}
