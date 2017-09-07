@@ -40,7 +40,7 @@ export default class Friend extends React.Component {
                                 name="email"/>
                         </div>
                     </div>
-                    <button className="delete" type="reset" onClick={(e) => this.props.handleDeleteFriend(e, this.props.i, this.props.defaultValue)}></button><br/>
+                    <button className="delete" type="reset" onClick={(e) => this.props.handleDeleteFriend(e, this.props.i)}></button><br/>
 
                     </div>
                 </form>

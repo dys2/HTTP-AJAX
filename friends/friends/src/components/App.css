@@ -174,13 +174,14 @@ li {
   flex-direction: row;
   margin: auto;
   margin-top: 10px;
+  height: 25px;
 }
 .add-lab {
   margin: 0 20px;
 }
 .add-in-age {
   font-family: 'Cardo', Georgia, Times, serif;  
-  font-size: 10px;  
+  font-size: 12px;  
   width: 40px;
   padding-left: 15px;
   margin: 0 10px;
@@ -191,27 +192,36 @@ li {
 }
 .add-in-age:focus {
   font-family: 'Cardo', Georgia, Times, serif;  
-  font-size: 10px;  
+  font-size: 18px;
+  font-weight: 600;
   color: black;
   outline: none;
 }
 .add-in {
   text-align: center;
   font-family: 'Cardo', Georgia, Times, serif;  
-  font-size: 10px;  
+  font-size: 12px;  
 }
 .add-in:hover {
   cursor: text;
 }
 .add-in:focus {
   font-family: 'Cardo', Georgia, Times, serif;  
-  font-size: 10px;  
+  font-size: 18px;  
+  font-weight: 600;
   color: black;
   outline: none;
 }
 .submit {
+  display: block;
   width: 60px;
   margin: auto;
   font-family: 'Cardo', Georgia, Times, serif;  
-  font-size: 10px;  
+  font-size: 14px;  
+  font-weight: 600;
+  margin-top: 5px;
+}
+.submit:hover {
+  cursor: pointer;
+  opacity: .8;
 }

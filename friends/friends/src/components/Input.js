@@ -11,7 +11,7 @@ export default (props) => {
             <input placeholder="AGE" className="add-in-age" type="number" name="age"/>
             <input placeholder="EMAIL" className="add-in" type="email" name="email"/>
             </div>
-            <br/>
+
             <input className="submit" type="submit" value="SUBMIT"/>
         </form>
     )
